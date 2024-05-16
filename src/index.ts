@@ -29,7 +29,6 @@ async function run() {
       await fileConverter(audioName, summary, resultsDir);
       spinner.succeed(`Конспект сохранён ${audioName}`);
     }
-
     spinner.succeed('Все процессы завершены');
   } catch (error) {
     if (error instanceof Error) spinner.fail(`Ошибка: ${error.message}`);
