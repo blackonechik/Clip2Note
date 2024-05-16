@@ -1,5 +1,14 @@
 # Clip2Notes
 
+<img src="https://github.com/blackonechik/Clip2Note/blob/main/preview.gif?raw=true">
+
+<br>
+
+<p align="center">
+    <img src="https://img.shields.io/badge/Version-1.0.0-blue" alt="Game Version">
+    <img src="https://img.shields.io/badge/License-MIT-success" alt="License">
+</p>
+
 ## Описание
 
 Clip2Notes - это Node.JS приложение, которое преобразует видеофайлы в текстовые конспекты. Он использует несколько модулей для преобразования видео в аудио, аудио в текст, текст в конспект и, наконец, сохраняет конспект в файл.
@@ -47,4 +56,7 @@ npm start
 ### fileConverter
 
 Этот модуль сохраняет конспект в файл в формате MarkDown.
+
+### Лицензия
+Это программное обеспечение выпускается под лицензией MIT. Смотрите файл LICENSE для получения дополнительной информации.
 
