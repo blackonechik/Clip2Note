@@ -1,0 +1,5 @@
+node_modules
+src/result/**
+src/video/**
+src/audio/**
+.env

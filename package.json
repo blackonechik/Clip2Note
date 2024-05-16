@@ -1,0 +1,29 @@
+{
+  "name": "clip2note",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsx src/index.ts"
+  },
+  "keywords": [],
+  "author": "blackonechik",
+  "type": "module",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^20.12.12",
+    "@typescript-eslint/eslint-plugin": "^7.9.0",
+    "@typescript-eslint/parser": "^7.9.0",
+    "assemblyai": "^4.4.2",
+    "chatgpt": "^5.2.5",
+    "dotenv": "^16.4.5",
+    "eslint": "^8.57.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "ora": "^8.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/fluent-ffmpeg": "^2.1.24"
+  }
+}
